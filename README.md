@@ -13,6 +13,8 @@ Before we can run the server code on the Pi, we need to install a few things.
 
 First, run `sudo apt-get update` and `sudo apt-get upgrade` to get the latest packages for your system.
 
+Then run `python --version`. If the command line says that the command 'python' was not found, then you need to install it. Run `sudo apt-get install python` to get Python installed on your system.
+
 Then, install the nessecary dependencies from Pip (in this case, only one package): `pip install picamera`
 
 Then, `git clone` the project: `git clone https://github.com/JacksonCoder/pystreamer`
@@ -25,7 +27,9 @@ yet. You'll have to install PyStreamer on another computer to do that.
 ### The viewing computer
 
 #### Setting up the viewing computer
-First, make sure you have VLC and Python installed on this computer. Once that requirement is fulfilled, `git clone` the project:
+First, make sure you have VLC and Python installed on this computer. You can do that by running `sudo apt-get install vlc python` on your viewing computer (if it is running Linux). If it is running something else, follow instructions for installing these two applications for your operating system online.
+
+Once that requirement is fulfilled, `git clone` the project:
 `git clone https://github.com/JacksonCoder/pystreamer`
 
 Before you can run this, you also need to obtain the IP address of the Raspberry Pi. Run `ifconfig` on the Pi to get it's IP address.
