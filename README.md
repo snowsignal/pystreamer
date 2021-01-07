@@ -1,7 +1,7 @@
 # PyStreamer
 A python-based streaming script for the Raspberry Pi
 
-PyStreamer was created by Jackson Lewis ([@JacksonCoder](https://github.com/Jacksoncoder)) for the CitySynth project. This project includes code for both the server and the client
+PyStreamer was created by Jackson Lewis ([@InquisitivePenguin](https://github.com/InquisitivePenguin)) for the CitySynth project. This project includes code for both the server and the client
 to use. The server code should be run on a Raspberry Pi, while the client code can be run on any device that has VLC and Python installed.
 
 ## Getting Started
@@ -46,4 +46,4 @@ second delay between the preview and the streamed video; this is normal.
 
 
 If you have any questions or run into any problems, feel free to open a Github Issue, or contact the author via email at
-`st.japa6@gmail.com`.
+`inquisitivepenguin@protonmail.com`.
